@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block page_content %}
+<h3>Results</h3>
+<p></p>
+<div class="container info-boxes pt100 pb100">
+    <p> COMMIT MESSAGE: <b>{{message.body}}</b></p>
+    <p> SAR or non-SAR: <b>{{message.SAR_nonSAR}}</b></p>
+    <p> INTENTION: <b> {{message.intention}}</b></p>
+    <p> TYPE: <b> {{message.type_of_SAR}}</b></p>
+    <p></p>
+</div>
+<p></p>
+<a href="{% url 'tool_detail' %}" class="btn btn-primary">Enter New Message</a>
+<p></p>
+{% endblock %}

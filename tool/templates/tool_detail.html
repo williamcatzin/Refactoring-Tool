@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block page_content %}
+<div class="col-md-8 offset-md-2">
+    <h2>Commit Message:</h2>
+    <form action="{% url 'tool_detail' %}" method='POST'>
+        {% csrf_token %}
+        <div class="form-group">
+            {{ form.body }}
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+<div class="col-md-8 offset-md-2">
+    <p>{{msg}}</p>
+</div>
+{% endblock %}
