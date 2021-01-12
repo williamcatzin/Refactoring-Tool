@@ -3,6 +3,8 @@ Authors: William Catzin, Kenneth Addo
 
 Refactoring Tool is a webapp service that allows users to enter a commit message to determine if the message pertains to self-admitted refactoring(SAR) or not(non-SAR). If the message does pertain to SAR, then the type of refactoring and the intention behind the refactoring is also determined.
 
+![refactoring tool](refactoring_tool/refactoring_tool.gif)
+
 ----------
 # Folders and Files
 ## refactoring-tool (Folder)
