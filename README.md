@@ -1,7 +1,7 @@
 # Design Document
 Authors: William Catzin, Kenneth Addo
 
-Refactoring Tool is a full-stack web application built for software quality research in the Department of Software Engineering at the Rochester Institute of Technoology. Refactoring Tool allows users to enter a commit message in the text box and three machine learning modeles in the back end determine if the message pertains to self-admitted refactoring (SAR) or not (non-SAR). If the message does pertain to SAR, then the type of refactoring and the intention behind the refactoring is also determined.
+Refactoring Tool is a full-stack web application built for software quality research in the Department of Software Engineering at the Rochester Institute of Technoology. Refactoring Tool allows users to enter a commit message in a text box and three machine learning modeles in the back end determine if the message pertains to self-admitted refactoring (SAR) or not (non-SAR). If the message does pertain to SAR, then the type of refactoring and the intention behind the refactoring is also determined.
 
 ![refactoring tool](refactoring_tool/refactoring_tool.gif)
 
